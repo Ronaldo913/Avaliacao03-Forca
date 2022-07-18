@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    height: 3em;
+    margin: 20px;
+    flex-grow: 0;
+    flex-basis: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    width: 70px;
+}
+
+a {
+    padding: 10px;
+    color: #0b49;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: 0 8px 0 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+main #jogo {
+    display: flex;
+}
+
+main #jogo #palavra {
+    width: 50%;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+footer {
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #jogo img {
+    width: 400px;
+}
+
+#sorteio {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sorteio #input {
+    width: 70px;
+    height: 30px;
+    background-color: darkgray;
+    color: black;
+    cursor: pointer;
+    margin: 8px;
+}
+
+#sorteio #input:hover {
+    background-color: rgb(104, 102, 102);
+}
+
+h2 {
+    color: #0b49;
+}
+
+.input {
+    width: 150px;
+    height: 20px;
+    margin: 10px;
+}
+
+span {
+    display: flex;
+    width: 50px;
+    border-bottom: solid 1.3px black;
+    margin: 10px;
+    align-items: flex-end;
+    font-size: 35px;
+    justify-content: center;
+}
+
+#teclado button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #0b49;
+    cursor: pointer;
+}
+
+#teclado button:hover {
+    background-color: rgba(6, 122, 48, 0.6);
+    transform: scale(1.2) translateX(0);
+}
+
+#teclado {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#teclado .ok,
+#teclado .ok:hover {
+    background-color: blueviolet;
+    transform: scale(1) translateX(0);
+    cursor: crosshair;
+}
+
+#njogo {
+    width: 80px;
+    height: 60px;
+    background-color: #0b49;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#njogo:hover {
+    background-color: rgba(3, 95, 37, 0.6);
+}
+
+#mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
