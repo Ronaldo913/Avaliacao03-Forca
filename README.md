@@ -2,4 +2,4 @@
 
 link: 
 
-https://ronaldo913.github.io/Avaliacao03-Forca/
+https://ronaldo913.github.io/Avaliacao03-Forca/index.html
